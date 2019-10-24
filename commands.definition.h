@@ -1,5 +1,8 @@
 // LABLE and "..." release in assembly
 
+// END
+def(end,, nope, end)
+
 // PUSH
 def(push, a, address, pushAddress)
 def(push, r, register, pushRegister)
