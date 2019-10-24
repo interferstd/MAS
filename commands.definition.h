@@ -63,7 +63,9 @@ def(sdivo,, nope, divSignedOctoWords)
 def(divf,, nope, divFloat) // size as OctoWord
 
 // OUT
-def(out,, register, outRegister)
+def(out, a, address, outString)
+def(out, r, register, outRegister)
+def(out, s, lable, outStaticString)
 def(xout,, register, outHexRegister)
 def(fout,, register, outFloatRegister)
 
